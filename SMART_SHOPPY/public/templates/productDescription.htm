@@ -1,0 +1,87 @@
+<!-- <input type="button" value="logout" class="btn btn-primary logoutBtn" onclick="logoutUser()"> -->
+
+<!-- <button onclick="history.back(loadTemplate('pdetails'))">Go Back</button> -->
+
+<!-- <h3 class="products_type" onclick="loadTemplate('pdetails')">Home
+    <h3 class="prod" onclick="loadTemplate('multiple', `{{Product_Type}}`)">/ {{Product_Type}} / {{product}} </h3> 
+</h3> -->
+<div class="single_prod">
+    <ul class="breadcrumb" style="margin-top: -26px;">
+        <li><a href="#" onclick="loadTemplate('pdetails')">Home</a></li>
+        <li><a href="#" onclick="loadTemplate('multiple', `{{Product_Type}}`)">{{Product_Type}}</a></li>
+        <li><a href="#">{{product}}</a></li>
+        <!-- <li>Italy</li> -->
+      </ul>
+</div>
+<div class="small-container single-product single-product1">
+    <div class="row">
+        <div>
+            <img class="pmg" src={{Image}} id="productImg">
+            <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="{{product_image1}}" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="{{product_image2}}" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="{{product_image3}}" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="{{product_image4}}" width="100%" class="small-img">
+                </div>
+            </div>
+        </div>
+        <div style="margin-top: -682px;margin-left: 1200px;">  
+            <h1 style="margin-top: 7px;font-size: 25px;">{{product}}</h1>
+            <div class="_3LWZlK">
+                {{rating}} <i class="bi bi-star-fill"></i> 
+            </div>
+            <div class="review">
+                {{review}}
+            </div>
+            <h4 style="margin-left: 0px;margin-top: 34px;font-size: 32px;"> ₹ {{Price}} 
+                <h4 style="margin-left: 160px;margin-top: -41px; text-decoration: line-through;color: grey;"> ₹ {{originalPrice }}</h4>
+                <h4 style="margin-top: -37px;margin-left: 284px;color: green;"> {{percent}} off</h4></h4> 
+            <!-- <input type="number" value="1"> -->
+            <a href="#" class="btn-cart" onclick="loadTemplate('cart')">Add to cart</a>
+            <a href="#" class="btn-buy-now" onclick="loadTemplate('buyNow')">Buy Now</a>
+            <div class="">
+                <label id="check" for="checkAvailability"></label>
+               
+                <input type="pincode" placeholder="Enter Delivery pincode"  id="checkAvailability" size="40">
+            </div>
+    
+            <div class="check">
+                <button class="btn btn-primary border"  type="button"  onclick="checkPincodeDetails()"><i class="bi bi-geo-alt-fill"></i>Check</button>
+            </div>
+    
+            <div id="checkResult">
+                
+            </div>
+            <br>
+            <p class="paragraph" style="font-size: 25px;">{{Product_Desc}}</p>
+            <h6 style="display: none;">{{productId}}</h6>
+        </div>
+
+        
+    </div>
+</div>
+
+<script>
+    var productImg = document.getElementById("productImg");
+    var smallImg = document.getElementsByClassName("small-img");
+
+    smallImg[0].onclick = function(){
+        productImg.src = smallImg[0].src;
+    }
+    smallImg[1].onclick = function(){
+        productImg.src = smallImg[1].src;
+    }
+    smallImg[2].onclick = function(){
+        productImg.src = smallImg[2].src;
+    }
+    smallImg[3].onclick = function(){
+        productImg.src = smallImg[3].src;
+    }
+</script>

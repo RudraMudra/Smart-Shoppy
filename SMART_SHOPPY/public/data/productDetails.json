@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Laptop",
+        "price": 35000,
+        "discountPercent": 13,
+        "manufacturer": "Samsung",
+        "desc": "A good quality product",
+        "rating": "4.5/5",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRO8Kpef67ZEZnhjC2YkG4sKfaFi_LH4dtAFA&usqp=CAU"
+    },
+    {
+        "name": "TV",
+        "price": 23000,
+    "discountPercent": 11,
+        "manufacturer": "Sony",
+        "desc": "OLED Telivision",
+        "rating": "4.2/5",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTohWgLmQ21lV1JMuDaS0JBnwWlzpsonYrttw&usqp=CAU"
+    },
+    {
+        "name": "Mobile",
+        "price": 15000,
+    "discountPercent": 6,
+        "manufacturer": "OnePlus",
+        "desc": "Bigger high quality mobile",
+        "rating": "4.8/5",
+        "image": "https://static.digit.in/default/36b13ef36655eae101b44c7e0f14d79eb63a8935.jpeg?tr=1200"
+    },
+    {
+        "name": "KidsToy",
+        "price": 1200,
+    "discountPercent": 2,
+        "manufacturer": "Dafd",
+        "desc": "High quality toys for kids",
+        "rating": "4.9/5",
+        "image": "https://www.thespruce.com/thmb/EfRQ2vI2WZH4JDRC31rg1yvQ0gM=/fit-in/1000x912/filters:no_upscale():max_bytes(150000):strip_icc()/3BeesMeBathToys-a993a5f7a5474555ad38188652007aaa.jpg"
+    }
+]

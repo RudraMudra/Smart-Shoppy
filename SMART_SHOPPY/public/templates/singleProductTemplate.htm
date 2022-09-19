@@ -1,0 +1,45 @@
+<!-- <ul>
+    <li>Product name: {{name}}</li>
+    <li>Product Price:
+        <span class="actualPrice abc pqr">{{price}}</span>
+        <span class="afterDiscount">{{discountPrice}}</span>
+    </li>
+    <li>Manufacturer: {{manufacturer}}</li>
+    <li class="productDesc"> Description: {{desc}}</li>
+    <li>Rating: {{rating}}</li>
+    <li>
+        <img src="{{image}}">
+    </li>
+    <li>
+        <input type="button" class="btn btn-primary" value="Add to Cart">
+    </li>
+</ul> -->
+
+
+
+<section class="mainproducts" >
+    <a href="#{{name}}"></a>
+    <div class="singleproducts">
+        <div class="flexitems" data-id="1" >
+            <img class="pimg" src={{image}} onclick="loadTemplate('multiple', `{{product_Type}}`)">
+            <h6 class="name" value={{product_Type}} onclick="loadTemplate('multiple', `{{product_Type}}`)"> <a href="#">{{product_Type}}</a></h6>
+            <h6 class="price"> &#8377;{{price}} &nbsp; 
+                <!-- <span class="afterDiscount"><s>( {{discountPercent}} % )</s> </span>  -->
+            </h6> 
+            <!-- <h6 class="manufacturer">{{manufacturer}}</h6> -->
+            <h6 class="desc">{{desc}}</h6>
+            <h6 class="rating"><span class="fa fa-star checked"></span> {{rating}}</h6>
+            <h6 class="productId" id={{productId}} value={{productId}} style="display: none;"></h6>
+            <button class="bottombutton" onclick="loadTemplate('cart')">Add to cart</button>
+            <!-- <a href="/fullDetails.html?productId={{productId}}">
+                <button class="bottombutton">View details</button> -->
+            </a>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+

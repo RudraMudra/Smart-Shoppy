@@ -1,0 +1,103 @@
+<div style="top: 20px;left: 46px;font-size: 18px;">
+    <div class="TB_InB">
+        <a href="#" style="text-decoration: none;color: black;position: absolute;top: 212px;right: 1406px;"
+        class="_1jJQdf _2Mji9F" title="laptops" onclick="loadTemplate('multiple', `{{product_Type}}`)">{{product_Type}}</a>
+    </div>
+</div>
+
+<!-- <div class="_4921Z t0pPfW" title="{{Core}}">
+    <div class="_1Y4Vhm _4FO7b6">
+        <label class="_2iDkf8 t0pPfW">
+            <input type="checkbox" class="_30VH1S" value="{{Core}}" readonly onclick="showCheckedProducts(value)">
+            <div class="_24_Dny"></div>
+            <div class="_3879cV">{{Core}}</div>
+        </label>
+    </div>
+</div> -->
+
+
+<!-- <h3 class="products_type" onclick="loadTemplate('pdetails')">Home<h3 class="prod">> {{product_Type}}</h3> </h3> -->
+<div style="position: absolute;top: 41px;">
+    <ul class="breadcrumb">
+        <li><a href="#" onclick="loadTemplate('pdetails')">Home</a></li>
+        <li><a href="#">{{product_Type}}</a></li>
+        <!-- <li><a href="#">Summer 15</a></li> -->
+        <!-- <li>Italy</li> -->
+      </ul>
+</div>
+
+<div class="small-container single-product">
+    <div class="row">
+        <div style="border-bottom: 1px solid #f0f0f0;">
+            <img class="pi_img" src={{Product_Image}} id="productImg"><i class="bi bi-suit-heart" style="margin-left: 36px; position: absolute;cursor: pointer;"></i>
+            <!-- <div class="heart">
+                
+            </div> -->
+            <!-- <div class="heart2">
+                <i class="bi bi-suit-heart"></i>
+            </div> -->
+            <!-- <div class="heart3">
+                <i class="bi bi-suit-heart"></i>
+            </div> -->
+            <!-- <div class="heart4">
+                <i class="bi bi-suit-heart"></i>
+            </div> -->
+            
+            <!-- <div class="small-img-row">
+                <div class="small-img-col">
+                    <img src="{{product_image1}}" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="{{product_image2}}" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="{{product_image3}}" width="100%" class="small-img">
+                </div>
+                <div class="small-img-col">
+                    <img src="{{product_image4}}" width="100%" class="small-img">
+                </div>
+            </div> -->
+        </div>
+        <div style="margin-top: -320px;margin-left: 780px">  
+            <h1 style="margin-top: -132px; cursor: pointer; font-size: 25px; display: block;"onclick="loadTemplate('descrption',` `, `{{productId}}`)">{{Product_Name}}</h1>
+            <h3 style="font-size: 18px;">{{Company}}</h3>
+            <h3 style="display: none;">{{Core}}</h3>
+            <div class="_3LWZlK">
+                {{Rating}} <i class="bi bi-star-fill"></i> 
+            </div>
+            <div class="fMghEO">
+                <ul class="_1xgFaf">
+                    <li class="rgWa7D">{{desc1}}</li>
+                    <li class="rgWa7D">{{desc2}}</li>
+                    <li class="rgWa7D">{{desc3}}</li>
+                    <li class="rgWa7D">{{desc4}}</li>
+                    <li class="rgWa7D">{{desc5}}</li>
+                    <li class="rgWa7D">{{desc6}}</li>
+                </ul>
+            </div>
+            <!-- <div class="review">
+                {{review}}
+            </div> -->
+            <h4 style="margin-left: 661px;margin-top: -258px;font-size: 32px;"> {{Price}}</h4>
+                <!-- <h4 style="margin-left: 160px;margin-top: -41px; text-decoration: line-through;color: grey;"> ₹ {{originalPrice }}</h4>
+                <h4 style="margin-top: -37px;margin-left: 284px;color: green;"> {{percent}} off</h4></h4>  -->
+            <!-- <input type="number" value="1"> -->
+            <!-- <a href="#" class="btn-cart" onclick="loadTemplate('cart')" style="margin-top: 260px; margin-left: -21px;">Add to cart</a>
+            <a href="#" class="btn-buy-now" onclick="loadTemplate('buyNow')">Buy Now</a> -->
+            <!-- <div class="">
+                <label id="check" for="checkAvailability"></label>
+               
+                <input type="pincode" placeholder="Enter Delivery pincode"  id="checkAvailability" size="40">
+            </div>
+    
+            <div class="check">
+                <button class="btn btn-primary border"  type="button"  onclick="checkPincodeDetails()"><i class="bi bi-geo-alt-fill"></i>Check</button>
+            </div>
+    
+            <div id="checkResult">
+                
+            </div> -->
+            <br>
+            <p class="paragraph" style="font-size: 25px;">{{Product_Desc}}</p>
+            <h6 style="display: none;">{{productId}}</h6>
+        </div>

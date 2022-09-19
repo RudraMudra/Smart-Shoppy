@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Product Details</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- <input type="button" value="logout" class="btn btn-secondary logoutBtn" onclick="logoutUser()"> -->
+
+    <div class="small-container single-product">
+        <div class="row">
+            <div class="col-2">
+                <img src="images_product/Main_gallery.jpg" width="100%" id="productImg">
+                <div class="small-img-row">
+                    <div class="small-img-col">
+                        <img src="images_product/gallery-1.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images_product/gallery-2.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images_product/gallery-3.jpg" width="100%" class="small-img">
+                    </div>
+                    <div class="small-img-col">
+                        <img src="images_product/gallery-4.jpg" width="100%" class="small-img">
+                    </div>
+                </div>
+            </div>
+            <div class="col-2">
+                <p>Home / Laptops</p>
+                <h1>Laptops by Dell</h1>
+                <h4>₹35000</h4>
+                <input type="number" value="1">
+                <a href="#" class="btn-cart">Add to cart</a>
+                <h3>Product Details<i class="fa fa-indent"></i></h3>
+                <br>
+                <p>A laptop computer, sometimes called a notebook computer by 
+                    manufacturers, is a battery- or AC-powered personal computer 
+                    generally smaller than a briefcase that can easily be transported 
+                    and conveniently used in temporary spaces such as on airplanes, in libraries, 
+                    temporary offices, and at meetings.</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var productImg = document.getElementById("productImg");
+        var smallImg = document.getElementsByClassName("small-img");
+
+        smallImg[0].onclick = function(){
+            productImg.src = smallImg[0].src;
+        }
+        smallImg[1].onclick = function(){
+            productImg.src = smallImg[1].src;
+        }
+        smallImg[2].onclick = function(){
+            productImg.src = smallImg[2].src;
+        }
+        smallImg[3].onclick = function(){
+            productImg.src = smallImg[3].src;
+        }
+    </script>
+</body>
+</html>
+
+
+
+
+
