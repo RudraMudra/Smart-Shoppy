@@ -6,10 +6,6 @@ Smart Shoppy is an innovative and intelligent shopping assistant designed to enh
 
 - **Smart Recommendations**: Receive personalized product recommendations based on your preferences and shopping history.
 
-- **Price Comparison**: Compare prices across multiple retailers to ensure you get the best deals on your favorite products.
-
-- **Barcode Scanner**: Use the built-in barcode scanner to quickly retrieve product information and reviews.
-
 - **Shopping Lists**: Create and manage shopping lists to keep track of items you need to purchase.
 
 - **User Profiles**: Save your preferences, favorite products, and shopping history for a customized experience.
